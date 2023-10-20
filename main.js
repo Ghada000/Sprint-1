@@ -111,17 +111,71 @@ AgePeople(5)
 
 
 // Problem: Write a function that checks if a given number is even or odd and returns an appropriate message.
- function EvenOdd(number){
-    if number
+function EvenOdd(number){
+    if (number%2===0)
+    return "This number is an even number"
+ else 
+ return "This number is an odd number"
  }
 
+undefined
+EvenOdd(15)
+'This number is an odd number'
 
 
 
 
 // Problem: Create a function that simulates a basic login system. It takes a username and password as arguments and returns true if  "Login successful" if they match, or false if  "Login failed" if they don't.
 
+function logIn(user,password){
+    if (user==='badis' && password=== 'boughanmi')
+    return "Login successful"
+else
+    return "Login failed"
+}
+undefined
+logIn('hi','hello')
+'Login failed'
+
+
 // Problem: Write a function that calculates the grade for a given test score. The function should return "A," "B," "C," "D," or "F" based on the score.
+function CalculateGrade()
+
+
+
+
+
+
+
+
+
+
 
 // Problem: Create a function that takes a day of the week as an argument and returns whether it's a weekday or a weekend day.
- 
+ function dayInWeek (day){
+ if (day === "sunday" && day ==="saturday")
+ return "it's weekend day "
+
+else 
+return "it is a week day "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
