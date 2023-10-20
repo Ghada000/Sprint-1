@@ -1,14 +1,79 @@
 // Variables:
 
 // Problem: Write a JavaScript function that declares a variable using var and returns its value.
+function sameValue () {
+    var animal= "hourse"
+    return animal 
+
+ }
+ 
+ 
+undefined
+sameValue()
+'hourse'
+
+
 
 // Problem: Create a function that takes two arguments and checks if they are equal. Return true if they are and false if they are not.
 
-// Problem: Implement a function that declares a "constant" variable using var (even though var variables are not constant) and attempts to reassign it. Handle any resulting errors.
+function equalValue (n1,n2){
+    if (n1===n2){
+        return true
+    }
+    return false
+}
+undefined
+equalValue (2,2)
+true
+equalValue(5,4)
+false
+
+
+// Problem: Implement a function that declares a "constant" variable using var (even though var variables are not constant) and attempts
+
+
+function constantVariable(n){
+    var x=Math.PI
+    return Math.PI+n
+}
+undefined
+constantVariable(2)
+5.141592653589793
+function constantVariable(n){
+    const x=Math.PI
+    return Math.PI+n
+}
+undefined
+constantVariable(5)
+8.141592653589793
+
+
 
 // Problem: Create a function that defines a variable using var within its scope. Try to access the variable outside of the function and explain the result.
 
+function defineVar(){
+    var x=5 
+    return x }
+undefined
+defineVar()
+5
+defineVar(x)
+VM902:1 Uncaught ReferenceError: x is not defined
+    at <anonymous>:1:11
+(anonymous) @ VM902:1
+
+
 // Problem: Write a function that takes a variable as an argument and returns its data type.
+
+function dataType (){
+    var 
+}
+
+
+
+
+
+
 
 // Conditional Statements:
 
@@ -21,3 +86,4 @@
 // Problem: Write a function that calculates the grade for a given test score. The function should return "A," "B," "C," "D," or "F" based on the score.
 
 // Problem: Create a function that takes a day of the week as an argument and returns whether it's a weekday or a weekend day.
+ 
