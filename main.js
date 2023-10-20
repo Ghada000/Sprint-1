@@ -139,7 +139,16 @@ logIn('hi','hello')
 
 
 // Problem: Write a function that calculates the grade for a given test score. The function should return "A," "B," "C," "D," or "F" based on the score.
-function CalculateGrade()
+function CalculateGrade(number){
+    if (number >17 && number <20 ){
+    return "You got A  Bravoo "}
+    else if (number <17 && number >14){
+        return "You got B you are good "
+    }
+    }
+    undefined
+    CalculateGrade(15)
+    'You got B you are good '
 
 
 
@@ -152,15 +161,20 @@ function CalculateGrade()
 
 
 // Problem: Create a function that takes a day of the week as an argument and returns whether it's a weekday or a weekend day.
- function dayInWeek (day){
- if (day === "sunday" && day ==="saturday")
- return "it's weekend day "
+function dayInWeek (day){
+    if (day === "sunday" || day ==="saturday"){
+    return "it's weekend day "}
+   
+   else if (day==="monday" || day === "tuesday" || day === "wednesday" || day === "thirsday"   || day ==="friday"){
+   return "it is a week day "}
+   
+   }
+   undefined
+   dayInWeek("tuesday")
+   'it is a week day '
 
-else 
-return "it is a week day "
 
-
-
+ 
 
 
 
