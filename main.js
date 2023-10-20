@@ -64,11 +64,24 @@ VM902:1 Uncaught ReferenceError: x is not defined
 
 
 // Problem: Write a function that takes a variable as an argument and returns its data type.
-
-function dataType (){
-    var 
+function dataType (ghada){
+    console.log(typeof ghada)
+    return ghada
+    
 }
-
+undefined
+dataType(3)
+VM1592:2 number
+3
+dataType(badis)
+/////
+function dataType (ghada){
+    return typeof (ghada)
+    
+}
+undefined
+dataType(true)
+'boolean'
 
 
 
@@ -79,7 +92,32 @@ function dataType (){
 
 // Problem: Create a function that takes an age as an argument and returns a message based on whether the person is a child, a teenager, an adult, or a senior citizen.
 
+function AgePeople(age){
+    if (age <= 10) 
+    return 'you are a Child' 
+else if (age >10 && age < 22)
+return 'you are a teenager'
+else if (age > 22 &&  age < 45)
+return 'you are an adult'  
+else if (age > 45 )
+return 'you are a senior citizen'
+}
+undefined
+AgePeople(5)
+'you are a Child' 
+
+
+
+
+
 // Problem: Write a function that checks if a given number is even or odd and returns an appropriate message.
+ function EvenOdd(number){
+    if number
+ }
+
+
+
+
 
 // Problem: Create a function that simulates a basic login system. It takes a username and password as arguments and returns true if  "Login successful" if they match, or false if  "Login failed" if they don't.
 
